@@ -71,6 +71,7 @@ struct ClearDerivedDataApp: App {
                 rawValue: "Copyright"
             ): "© 2023 FAIZ MOKHTAR"
         ])
+        NSApplication.shared.windows.first?.orderFrontRegardless()
     }
 }
 
